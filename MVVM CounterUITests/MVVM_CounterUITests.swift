@@ -1,13 +1,13 @@
 //
-//  Tests_iOS.swift
-//  Tests iOS
+//  MVVM_CounterUITests.swift
+//  MVVM CounterUITests
 //
 //  Created by Ed Salter on 3/10/22.
 //
 
 import XCTest
 
-class Tests_iOS: XCTestCase {
+class MVVM_CounterUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

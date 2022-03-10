@@ -1,6 +1,6 @@
 //
 //  MVVM_CounterApp.swift
-//  Shared
+//  MVVM Counter
 //
 //  Created by Ed Salter on 3/10/22.
 //

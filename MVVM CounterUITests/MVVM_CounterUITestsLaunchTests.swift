@@ -1,13 +1,13 @@
 //
-//  Tests_macOSLaunchTests.swift
-//  Tests macOS
+//  MVVM_CounterUITestsLaunchTests.swift
+//  MVVM CounterUITests
 //
 //  Created by Ed Salter on 3/10/22.
 //
 
 import XCTest
 
-class Tests_macOSLaunchTests: XCTestCase {
+class MVVM_CounterUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

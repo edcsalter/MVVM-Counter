@@ -8,15 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject private var counterVM: CounterViewModel
+    
+    init() {
+        counterVM = CounterViewModel()
+    }
+    
     var body: some View {
         VStack {
-            Text("PREMIUM")
-                .frame(width: 200, height: 200)
+            Text(counterVM.premium ? "PREMIUM" : "")
+            .frame(width: 200, height: 200)
+            .font(.largeTitle)
+            
+            Text("\(counterVM.value)")
                 .font(.largeTitle)
-            Text("0")
-                .font(.largeTitle)
+            
             Button("Increment") {
-                
+                self.counterVM.increment()
             }
         }
     }
